@@ -1,0 +1,87 @@
+# 학습 키워드 트리
+
+<!-- description:start -->
+학습 키워드를 계층적으로 정리한 루트 인덱스. 키워드 추가·수정은 `docs/tree.yaml` 을 편집한 뒤 `make scaffold` 로 동기화한다.
+<!-- description:end -->
+
+<!-- tree:start -->
+- [CS 기초](./CS%20%EA%B8%B0%EC%B4%88/README.md) — 컴퓨터 과학의 기초 개념. 하드웨어 비트 폭, 수 표현, 메모리 모델, 언어별 평가 방식, 파일 포맷.
+  - [32 Bit 64 Bit 차이](./CS%20%EA%B8%B0%EC%B4%88/32%20Bit%2064%20Bit%20%EC%B0%A8%EC%9D%B4/README.md) — 32비트와 64비트 시스템의 레지스터·주소공간·성능 차이.
+  - [Python Call by value Call by reference](./CS%20%EA%B8%B0%EC%B4%88/Python%20Call%20by%20value%20Call%20by%20reference/README.md) — 파이썬의 객체 전달 방식. 가변·불변 객체에 따른 동작 차이.
+  - [실수 표현법](./CS%20%EA%B8%B0%EC%B4%88/%EC%8B%A4%EC%88%98%20%ED%91%9C%ED%98%84%EB%B2%95/README.md) — 컴퓨터에서 실수를 표현하는 방식.
+  - [C에서 Pointer 및 배열](./CS%20%EA%B8%B0%EC%B4%88/C%EC%97%90%EC%84%9C%20Pointer%20%EB%B0%8F%20%EB%B0%B0%EC%97%B4/README.md) — C 포인터의 의미, 배열과의 관계, 포인터 연산.
+  - [Garbage Collect](./CS%20%EA%B8%B0%EC%B4%88/Garbage%20Collect/README.md) — 자동 메모리 회수 기법. 언어별 GC 전략 비교.
+  - [Stack과 Heap 메모리 구조](./CS%20%EA%B8%B0%EC%B4%88/Stack%EA%B3%BC%20Heap%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0/README.md) — 프로세스 메모리의 스택·힙 영역과 그 특성.
+  - [jpg png gif 차이](./CS%20%EA%B8%B0%EC%B4%88/jpg%20png%20gif%20%EC%B0%A8%EC%9D%B4/README.md) — 대표 이미지 포맷의 압축 방식·색상 특성·사용처 비교.
+  - [2의 보수 1의 보수](./CS%20%EA%B8%B0%EC%B4%88/2%EC%9D%98%20%EB%B3%B4%EC%88%98%201%EC%9D%98%20%EB%B3%B4%EC%88%98/README.md) — 음수 표현 방식 두 가지의 원리와 비교.
+  - [CPU vs GPU](./CS%20%EA%B8%B0%EC%B4%88/CPU%20vs%20GPU/README.md) — 범용 처리기와 병렬 처리기의 구조적 차이.
+  - [SSD HDD](./CS%20%EA%B8%B0%EC%B4%88/SSD%20HDD/README.md) — 두 저장 장치의 동작 원리와 성능·수명 특성.
+- [Algorithm 및 Data Structures](./Algorithm%20%EB%B0%8F%20Data%20Structures/README.md) — 자료구조와 알고리즘 전반. 시간복잡도부터 트리·그래프·정렬·해시·DP·Greedy.
+  - [시간 복잡도](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EC%8B%9C%EA%B0%84%20%EB%B3%B5%EC%9E%A1%EB%8F%84/README.md) — 알고리즘의 점근 복잡도 분석. Big-Oh 표기법 중심.
+  - [Recursion Iteration](./Algorithm%20%EB%B0%8F%20Data%20Structures/Recursion%20Iteration/README.md) — 재귀와 반복의 관계·트레이드오프·변환.
+  - [Linked List](./Algorithm%20%EB%B0%8F%20Data%20Structures/Linked%20List/README.md) — 연결 리스트의 종류와 구현·시간복잡도.
+  - [Array](./Algorithm%20%EB%B0%8F%20Data%20Structures/Array/README.md) — 배열의 메모리 레이아웃·접근 비용·정적·동적 배열.
+  - [Stack](./Algorithm%20%EB%B0%8F%20Data%20Structures/Stack/README.md) — LIFO 자료구조. 배열·연결 리스트 기반 구현.
+  - [Queue](./Algorithm%20%EB%B0%8F%20Data%20Structures/Queue/README.md) — FIFO 자료구조. 배열·연결 리스트·원형 큐·덱.
+  - [Deep Copy vs Shallow Copy](./Algorithm%20%EB%B0%8F%20Data%20Structures/Deep%20Copy%20vs%20Shallow%20Copy/README.md) — 얕은 복사와 깊은 복사의 차이와 주의점.
+  - [정렬](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EC%A0%95%EB%A0%AC/README.md) — 대표 정렬 알고리즘의 원리·복잡도·안정성.
+  - [Hash Table](./Algorithm%20%EB%B0%8F%20Data%20Structures/Hash%20Table/README.md) — 해시 자료구조와 충돌 처리·리해싱 전략.
+  - [DFS](./Algorithm%20%EB%B0%8F%20Data%20Structures/DFS/README.md) — 깊이 우선 탐색의 원리와 응용.
+  - [BFS](./Algorithm%20%EB%B0%8F%20Data%20Structures/BFS/README.md) — 너비 우선 탐색의 원리와 응용.
+  - [Graph](./Algorithm%20%EB%B0%8F%20Data%20Structures/Graph/README.md) — 그래프의 표현 방식·탐색·경로 알고리즘.
+  - [Tree](./Algorithm%20%EB%B0%8F%20Data%20Structures/Tree/README.md) — 트리 자료구조와 순회·탐색.
+  - [Dynamic Programming](./Algorithm%20%EB%B0%8F%20Data%20Structures/Dynamic%20Programming/README.md) — 최적 부분 구조와 중복 부분 문제를 활용한 설계 기법.
+  - [Greedy Algorithm](./Algorithm%20%EB%B0%8F%20Data%20Structures/Greedy%20Algorithm/README.md) — 매 단계 국소 최적을 선택하는 설계 기법.
+  - [균형 이진 트리 Balanced BST](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EA%B7%A0%ED%98%95%20%EC%9D%B4%EC%A7%84%20%ED%8A%B8%EB%A6%AC%20Balanced%20BST/README.md) — 균형을 유지하는 이진 탐색 트리 계열.
+- [Malloc lab](./Malloc%20lab/README.md) — 동적 메모리 할당자 구현. 할당 정책과 단편화 분석.
+  - [implicit](./Malloc%20lab/implicit/README.md) — Implicit Free List 기반 할당자.
+  - [explicit](./Malloc%20lab/explicit/README.md) — Explicit Free List 기반 할당자.
+  - [seglist](./Malloc%20lab/seglist/README.md) — Segregated Free List 기반 할당자.
+  - [buddy system](./Malloc%20lab/buddy%20system/README.md) — Buddy System 할당자.
+  - [Fragmentation](./Malloc%20lab/Fragmentation/README.md) — Internal·External 단편화의 원인과 완화 기법.
+- [네트워크](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/README.md) — OSI 계층, 프로토콜, 소켓 프로그래밍, 프록시·CDN, REST API.
+  - [BSD 소켓](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/BSD%20%EC%86%8C%EC%BC%93/README.md) — BSD 소켓 API 와 기본 시스템콜.
+  - [프록시 서버](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%94%84%EB%A1%9D%EC%8B%9C%20%EC%84%9C%EB%B2%84/README.md) — Forward·Reverse 프록시의 역할과 구성.
+  - [TCP IP UDP HTTP file descriptor DNS](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%20IP%20UDP%20HTTP%20file%20descriptor%20DNS/README.md) — 핵심 네트워크 프로토콜과 파일 디스크립터·DNS 개요.
+  - [REST API](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/REST%20API/README.md) — REST 아키텍처 스타일과 설계 원칙.
+  - [HTTP METHOD](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20METHOD/README.md) — GET·POST·PUT·PATCH·DELETE 메서드의 의미와 사용법.
+  - [OSI 7계층](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/OSI%207%EA%B3%84%EC%B8%B5/README.md) — OSI 참조 모델의 각 계층과 역할.
+  - [CDN](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/CDN/README.md) — 콘텐츠 전송 네트워크의 원리와 캐싱 전략.
+- [OS](./OS/README.md) — 운영체제 핵심 개념. 프로세스·스레드, 스케줄링, 동기화, 가상 메모리, 캐시.
+  - [OS의 정의](./OS/OS%EC%9D%98%20%EC%A0%95%EC%9D%98/README.md) — 운영체제의 목적과 역할.
+  - [Process와 Thread](./OS/Process%EC%99%80%20Thread/README.md) — 프로세스와 스레드의 구조·차이·비용.
+  - [CPU Scheduling 알고리즘](./OS/CPU%20Scheduling%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/README.md) — FCFS·SJF·RR·Priority·MLFQS 스케줄링 정책.
+  - [Semaphore와 Mutex](./OS/Semaphore%EC%99%80%20Mutex/README.md) — 두 대표 동기화 프리미티브의 의미와 차이.
+  - [Race Condition](./OS/Race%20Condition/README.md) — 공유 자원 경쟁 상태의 원인과 예시.
+  - [Deadlock](./OS/Deadlock/README.md) — 교착 상태의 조건·탐지·회피·예방.
+  - [Context Switching](./OS/Context%20Switching/README.md) — 문맥 교환의 동작 원리와 비용.
+  - [System Call](./OS/System%20Call/README.md) — 사용자 모드에서 커널 기능을 요청하는 메커니즘.
+  - [Kernel](./OS/Kernel/README.md) — 커널의 역할과 구조·모놀리식 vs 마이크로.
+  - [Atomic Operation](./OS/Atomic%20Operation/README.md) — 원자적 연산의 의미와 하드웨어 지원.
+  - [Interrupt](./OS/Interrupt/README.md) — 인터럽트의 종류와 처리 흐름.
+  - [가상 메모리](./OS/%EA%B0%80%EC%83%81%20%EB%A9%94%EB%AA%A8%EB%A6%AC/README.md) — 가상 주소 공간과 물리 메모리 매핑.
+  - [페이징 기법](./OS/%ED%8E%98%EC%9D%B4%EC%A7%95%20%EA%B8%B0%EB%B2%95/README.md) — 페이지 단위 메모리 관리와 페이지 테이블.
+  - [Cache](./OS/Cache/README.md) — 캐시 계층 구조와 지역성 원리.
+  - [TLB](./OS/TLB/README.md) — 주소 변환 캐시의 동작.
+  - [Page Fault](./OS/Page%20Fault/README.md) — 페이지 부재의 원인과 처리 과정.
+  - [linux redirection pipe](./OS/linux%20redirection%20pipe/README.md) — 리눅스 셸의 리다이렉션과 파이프 동작.
+- [Pintos](./Pintos/README.md) — PintOS 프로젝트 0~4. 가상화·스레드·사용자 프로그램·가상 메모리·파일 시스템.
+  - [Project 0 PintOS](./Pintos/Project%200%20PintOS/README.md) — 프로젝트 환경 설정과 자주 만나는 버그 패턴.
+  - [Project 1 Threads](./Pintos/Project%201%20Threads/README.md) — Time-sharing, 스케줄러, 동기화 프리미티브 구현.
+  - [Project 2 User Programs](./Pintos/Project%202%20User%20Programs/README.md) — 유저/커널 모드, 프로세스, 시스템콜, ELF 로더.
+  - [Project 3 Virtual Memory](./Pintos/Project%203%20Virtual%20Memory/README.md) — 가상 메모리 관리, 페이지 타입, 스왑, COW.
+  - [Project 4 File System](./Pintos/Project%204%20File%20System/README.md) — 파일 시스템 구성 요소와 구현, 저널링.
+- [AI](./AI/README.md) — 신경망·LLM·응용 기술.
+  - [신경망](./AI/%EC%8B%A0%EA%B2%BD%EB%A7%9D/README.md) — 뉴런에서 시작하는 딥러닝의 기본 구성 요소.
+  - [LLM](./AI/LLM/README.md) — 대규모 언어 모델의 구조와 학습·추론 기법.
+  - [AI 응용기술](./AI/AI%20%EC%9D%91%EC%9A%A9%EA%B8%B0%EC%88%A0/README.md) — RAG·MCP·Agent 등 응용 패턴.
+- [DB](./DB/README.md) — 관계형/비관계형 DB, 인덱스, 트리 기반 구조.
+  - [관계형 DB와 No-SQL DB](./DB/%EA%B4%80%EA%B3%84%ED%98%95%20DB%EC%99%80%20No-SQL%20DB/README.md) — 두 계열의 모델·쿼리·확장성 비교.
+  - [DB Index](./DB/DB%20Index/README.md) — 인덱스의 목적과 종류·비용.
+  - [B Tree B+ Tree](./DB/B%20Tree%20B%2B%20Tree/README.md) — 두 트리 구조의 원리와 DB 인덱스에서의 사용.
+- [프로젝트 공통 지식](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/README.md) — 프로젝트 수행에서 반복적으로 만나는 공통 주제. JS·암호·HTTP 보안·회원관리.
+  - [JavaScript](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/JavaScript/README.md) — 비동기 I/O, 동시성, 워커.
+  - [암호 보안](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/%EC%95%94%ED%98%B8%20%EB%B3%B4%EC%95%88/README.md) — 대칭·공개키 암호, 해시, 응용 프로토콜.
+  - [HTTP Security](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/HTTP%20Security/README.md) — 웹에서 자주 만나는 보안 이슈와 대응.
+  - [회원관리](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC/README.md) — 인증·인가·디렉터리 서비스.
+<!-- tree:end -->
