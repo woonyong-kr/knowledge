@@ -194,7 +194,7 @@ scripts/
 
 - 커밋 메시지 본문·트레일러에 AI/Claude 관련 문구를 **절대 남기지 않는다**. 금지 예시:
   - `Co-Authored-By: Claude ...`, `Co-authored-by: Claude ...`
-  - `🤖 Generated with Claude Code`, `Generated with Claude` 등의 서명
+  - `Generated with Claude Code`, `Generated with Claude` 등 AI 서명 문구 (로봇·스파클 등 연상 이모지 포함)
   - `noreply@anthropic.com` 이 포함된 모든 식별자
 - Author/Committer 는 반드시 사용자 본인의 이름·이메일만 사용한다. AI 계정·봇 계정을 지정하지 않는다.
 - `--trailer`, `Co-Authored-By`, `Signed-off-by` 등으로 AI 공동 저자를 추가하는 옵션을 사용하지 않는다.
@@ -202,6 +202,14 @@ scripts/
   1. `git filter-branch --force --msg-filter 'sed -e "/^Co-Authored-By: Claude/Id" -e "/^Co-authored-by: Claude/Id"' <base>..HEAD`
   2. `git push --force-with-lease origin <branch>`
 - 푸시 이후에도 GitHub 웹 UI의 커밋 상세 페이지에서 공동 저자 표시가 사라졌는지 육안 확인한다.
+
+### 6.2 이모지 사용 금지
+
+- 커밋 메시지(제목·본문·트레일러) 와 리포지토리 내 모든 문서(`README.md`, `CONTRIBUTING.md`, `tree.yaml`, 포스트 파일 등) 에 **이모지를 쓰지 않는다**.
+- 여기서 "이모지" 는 유니코드 Emoji 속성을 가진 모든 문자(예: `U+1F300–U+1FAFF`, `U+2600–U+27BF`, `U+1F000–U+1F2FF` 범위, 변형 선택자 포함) 를 의미한다.
+- 일반 구두점·중점(`·`)·화살표(`→`, `←`) 등 Emoji 속성이 없는 기호는 허용한다.
+- 커밋 전 검사: `git diff --cached | grep -P "[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}\x{1F000}-\x{1F2FF}]"` 결과가 비어 있어야 한다.
+- 이미 섞여 들어간 이모지를 발견하면 해당 문서에서 제거하고 재커밋하거나, 커밋 메시지라면 6.1 절의 재작성 절차에 따라 이력에서 제거한다.
 
 ---
 
