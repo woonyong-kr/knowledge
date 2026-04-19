@@ -16,6 +16,7 @@
   - [2의 보수 1의 보수](./CS%20%EA%B8%B0%EC%B4%88/2%EC%9D%98%20%EB%B3%B4%EC%88%98%201%EC%9D%98%20%EB%B3%B4%EC%88%98/README.md) — 음수 표현 방식 두 가지의 원리와 비교.
   - [CPU vs GPU](./CS%20%EA%B8%B0%EC%B4%88/CPU%20vs%20GPU/README.md) — 범용 처리기와 병렬 처리기의 구조적 차이.
   - [SSD HDD](./CS%20%EA%B8%B0%EC%B4%88/SSD%20HDD/README.md) — 두 저장 장치의 동작 원리와 성능·수명 특성.
+  - [C 언어 기초](./CS%20%EA%B8%B0%EC%B4%88/C%20%EC%96%B8%EC%96%B4%20%EA%B8%B0%EC%B4%88/README.md) — C 언어의 변수·함수·구조체·포인터와 컴파일·디버깅·make 사용법.
 - [Algorithm 및 Data Structures](./Algorithm%20%EB%B0%8F%20Data%20Structures/README.md) — 자료구조와 알고리즘 전반. 시간복잡도부터 트리·그래프·정렬·해시·DP·Greedy.
   - [시간 복잡도](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EC%8B%9C%EA%B0%84%20%EB%B3%B5%EC%9E%A1%EB%8F%84/README.md) — 알고리즘의 점근 복잡도 분석. Big-Oh 표기법 중심.
   - [Recursion Iteration](./Algorithm%20%EB%B0%8F%20Data%20Structures/Recursion%20Iteration/README.md) — 재귀와 반복의 관계·트레이드오프·변환.
@@ -33,12 +34,24 @@
   - [Dynamic Programming](./Algorithm%20%EB%B0%8F%20Data%20Structures/Dynamic%20Programming/README.md) — 최적 부분 구조와 중복 부분 문제를 활용한 설계 기법.
   - [Greedy Algorithm](./Algorithm%20%EB%B0%8F%20Data%20Structures/Greedy%20Algorithm/README.md) — 매 단계 국소 최적을 선택하는 설계 기법.
   - [균형 이진 트리 Balanced BST](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EA%B7%A0%ED%98%95%20%EC%9D%B4%EC%A7%84%20%ED%8A%B8%EB%A6%AC%20Balanced%20BST/README.md) — 균형을 유지하는 이진 탐색 트리 계열.
+  - [문자열](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EB%AC%B8%EC%9E%90%EC%97%B4/README.md) — 문자열 처리 기법. 회문·반복·치환·기본 패턴 매칭.
+  - [완전탐색](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/README.md) — 가능한 모든 경우를 탐색하는 기법. 가지치기 없는 전수조사 기준.
+  - [백트래킹](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/README.md) — 조건 위배 시 되돌아가며 탐색 공간을 가지치기하는 설계 기법.
+  - [정수론](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EC%A0%95%EC%88%98%EB%A1%A0/README.md) — 알고리즘에서 자주 만나는 수론적 주제.
+  - [이분탐색](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89/README.md) — 정렬된 공간에서 탐색 범위를 절반씩 좁히는 기법.
+  - [분할정복](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EB%B6%84%ED%95%A0%EC%A0%95%EB%B3%B5/README.md) — 문제를 부분 문제로 나눠 해결하고 합치는 설계 기법.
+  - [Heap 우선순위 큐](./Algorithm%20%EB%B0%8F%20Data%20Structures/Heap%20%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90/README.md) — 힙 자료구조와 우선순위 큐의 구현·활용.
+  - [Trie](./Algorithm%20%EB%B0%8F%20Data%20Structures/Trie/README.md) — 접두사 트리. 문자열 집합의 검색·저장에 특화된 자료구조.
 - [Malloc lab](./Malloc%20lab/README.md) — 동적 메모리 할당자 구현. 할당 정책과 단편화 분석.
   - [implicit](./Malloc%20lab/implicit/README.md) — Implicit Free List 기반 할당자.
   - [explicit](./Malloc%20lab/explicit/README.md) — Explicit Free List 기반 할당자.
   - [seglist](./Malloc%20lab/seglist/README.md) — Segregated Free List 기반 할당자.
   - [buddy system](./Malloc%20lab/buddy%20system/README.md) — Buddy System 할당자.
   - [Fragmentation](./Malloc%20lab/Fragmentation/README.md) — Internal·External 단편화의 원인과 완화 기법.
+  - [동적 메모리 할당](./Malloc%20lab/%EB%8F%99%EC%A0%81%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%ED%95%A0%EB%8B%B9/README.md) — 힙 영역에서 sbrk·malloc·free·realloc 로 이뤄지는 메모리 할당 흐름.
+  - [할당 정책](./Malloc%20lab/%ED%95%A0%EB%8B%B9%20%EC%A0%95%EC%B1%85/README.md) — 가용 블록 중 어떤 블록을 고를지 결정하는 탐색 전략.
+  - [Coalescing](./Malloc%20lab/Coalescing/README.md) — 해제된 인접 가용 블록을 병합해 외부 단편화를 줄이는 기법.
+  - [성능 지표](./Malloc%20lab/%EC%84%B1%EB%8A%A5%20%EC%A7%80%ED%91%9C/README.md) — 할당자 성능 평가 지표. Malloc lab 점수 산정에 사용.
 - [네트워크](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/README.md) — OSI 계층, 프로토콜, 소켓 프로그래밍, 프록시·CDN, REST API.
   - [BSD 소켓](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/BSD%20%EC%86%8C%EC%BC%93/README.md) — BSD 소켓 API 와 기본 시스템콜.
   - [프록시 서버](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%94%84%EB%A1%9D%EC%8B%9C%20%EC%84%9C%EB%B2%84/README.md) — Forward·Reverse 프록시의 역할과 구성.
@@ -47,6 +60,11 @@
   - [HTTP METHOD](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20METHOD/README.md) — GET·POST·PUT·PATCH·DELETE 메서드의 의미와 사용법.
   - [OSI 7계층](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/OSI%207%EA%B3%84%EC%B8%B5/README.md) — OSI 참조 모델의 각 계층과 역할.
   - [CDN](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/CDN/README.md) — 콘텐츠 전송 네트워크의 원리와 캐싱 전략.
+  - [TCP IP 계층 모델](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%20IP%20%EA%B3%84%EC%B8%B5%20%EB%AA%A8%EB%8D%B8/README.md) — 링크·네트워크·전송·응용 계층으로 구성된 TCP IP 참조 모델.
+  - [클라이언트 서버 모델](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20%EC%84%9C%EB%B2%84%20%EB%AA%A8%EB%8D%B8/README.md) — 역할 분담·연결 수립·요청 응답 흐름을 다루는 네트워크 상호작용 패턴.
+  - [웹서버](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EC%84%9C%EB%B2%84/README.md) — HTTP 요청을 받아 정적·동적 컨텐츠를 응답하는 서버 소프트웨어.
+  - [웹 컨텐츠](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%20%EC%BB%A8%ED%85%90%EC%B8%A0/README.md) — 웹에서 주고받는 자원의 종류와 서빙 방식.
+  - [HTTP 메시지 구조](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EA%B5%AC%EC%A1%B0/README.md) — HTTP 요청·응답 메시지의 구성 요소와 흐름.
 - [OS](./OS/README.md) — 운영체제 핵심 개념. 프로세스·스레드, 스케줄링, 동기화, 가상 메모리, 캐시.
   - [OS의 정의](./OS/OS%EC%9D%98%20%EC%A0%95%EC%9D%98/README.md) — 운영체제의 목적과 역할.
   - [Process와 Thread](./OS/Process%EC%99%80%20Thread/README.md) — 프로세스와 스레드의 구조·차이·비용.
@@ -65,6 +83,8 @@
   - [TLB](./OS/TLB/README.md) — 주소 변환 캐시의 동작.
   - [Page Fault](./OS/Page%20Fault/README.md) — 페이지 부재의 원인과 처리 과정.
   - [linux redirection pipe](./OS/linux%20redirection%20pipe/README.md) — 리눅스 셸의 리다이렉션과 파이프 동작.
+  - [DMA](./OS/DMA/README.md) — Direct Memory Access. CPU 개입 없이 장치가 메모리에 직접 접근하는 기법.
+  - [demand-zero memory](./OS/demand-zero%20memory/README.md) — 접근 시점에 0 으로 초기화된 페이지를 지연 할당하는 메모리 관리 기법.
 - [Pintos](./Pintos/README.md) — PintOS 프로젝트 0~4. 가상화·스레드·사용자 프로그램·가상 메모리·파일 시스템.
   - [Project 0 PintOS](./Pintos/Project%200%20PintOS/README.md) — 프로젝트 환경 설정과 자주 만나는 버그 패턴.
   - [Project 1 Threads](./Pintos/Project%201%20Threads/README.md) — Time-sharing, 스케줄러, 동기화 프리미티브 구현.

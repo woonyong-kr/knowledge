@@ -1,17 +1,15 @@
-# 정렬
+# 문자열
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+문자열 처리 기법. 회문·반복·치환·기본 패턴 매칭.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+- 회문 Palindrome
+- 문자열 반복
+- 패턴 매칭 기초
 <!-- tree:end -->
 
 ## 포스트

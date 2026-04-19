@@ -1,17 +1,15 @@
-# 정렬
+# 할당 정책
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+가용 블록 중 어떤 블록을 고를지 결정하는 탐색 전략.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+- first fit
+- next fit
+- best fit
 <!-- tree:end -->
 
 ## 포스트

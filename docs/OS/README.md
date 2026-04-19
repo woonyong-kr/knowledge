@@ -24,4 +24,6 @@
 - [TLB](./TLB/README.md) — 주소 변환 캐시의 동작.
 - [Page Fault](./Page%20Fault/README.md) — 페이지 부재의 원인과 처리 과정.
 - [linux redirection pipe](./linux%20redirection%20pipe/README.md) — 리눅스 셸의 리다이렉션과 파이프 동작.
+- [DMA](./DMA/README.md) — Direct Memory Access. CPU 개입 없이 장치가 메모리에 직접 접근하는 기법.
+- [demand-zero memory](./demand-zero%20memory/README.md) — 접근 시점에 0 으로 초기화된 페이지를 지연 할당하는 메모리 관리 기법.
 <!-- tree:end -->

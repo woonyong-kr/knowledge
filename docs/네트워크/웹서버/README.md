@@ -1,17 +1,15 @@
-# 정렬
+# 웹서버
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+HTTP 요청을 받아 정적·동적 컨텐츠를 응답하는 서버 소프트웨어.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+- tiny 웹서버 구조
+- 정적 파일 서빙
+- 동적 컨텐츠 서빙
 <!-- tree:end -->
 
 ## 포스트

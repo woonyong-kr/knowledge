@@ -1,17 +1,17 @@
-# 정렬
+# HTTP 메시지 구조
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+HTTP 요청·응답 메시지의 구성 요소와 흐름.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+- 요청 라인
+- 응답 라인
+- 헤더
+- 상태코드
+- HEAD 메소드
 <!-- tree:end -->
 
 ## 포스트

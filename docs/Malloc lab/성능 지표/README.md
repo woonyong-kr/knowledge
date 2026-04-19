@@ -1,17 +1,14 @@
-# 정렬
+# 성능 지표
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+할당자 성능 평가 지표. Malloc lab 점수 산정에 사용.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+- 메모리 이용률 util
+- 처리량 thru
 <!-- tree:end -->
 
 ## 포스트

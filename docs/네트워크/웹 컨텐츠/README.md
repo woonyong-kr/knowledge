@@ -1,17 +1,16 @@
-# 정렬
+# 웹 컨텐츠
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+웹에서 주고받는 자원의 종류와 서빙 방식.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+- MIME type
+- 정적 컨텐츠
+- 동적 컨텐츠
+- CGI
 <!-- tree:end -->
 
 ## 포스트

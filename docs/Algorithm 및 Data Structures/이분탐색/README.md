@@ -1,17 +1,15 @@
-# 정렬
+# 이분탐색
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+정렬된 공간에서 탐색 범위를 절반씩 좁히는 기법.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+- lower_bound
+- upper_bound
+- 파라메트릭 서치
 <!-- tree:end -->
 
 ## 포스트

@@ -7,7 +7,8 @@ Internal·External 단편화의 원인과 완화 기법.
 ## 하위 키워드
 
 <!-- tree:start -->
-(하위 키워드 없음)
+- Internal Fragmentation
+- External Fragmentation
 <!-- tree:end -->
 
 ## 포스트

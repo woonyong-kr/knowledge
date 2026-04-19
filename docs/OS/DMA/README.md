@@ -1,17 +1,13 @@
-# 정렬
+# DMA
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+Direct Memory Access. CPU 개입 없이 장치가 메모리에 직접 접근하는 기법.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+(하위 키워드 없음)
 <!-- tree:end -->
 
 ## 포스트

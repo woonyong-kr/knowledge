@@ -1,17 +1,13 @@
-# 정렬
+# demand-zero memory
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+접근 시점에 0 으로 초기화된 페이지를 지연 할당하는 메모리 관리 기법.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+(하위 키워드 없음)
 <!-- tree:end -->
 
 ## 포스트

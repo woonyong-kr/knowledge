@@ -1,17 +1,14 @@
-# 정렬
+# 분할정복
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+문제를 부분 문제로 나눠 해결하고 합치는 설계 기법.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+- 점화식
+- Master Theorem
 <!-- tree:end -->
 
 ## 포스트

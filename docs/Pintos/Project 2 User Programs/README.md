@@ -22,6 +22,8 @@
 - file descriptor
 - file descriptor table
 - dup2 syscall
+- 사용자 포인터 검증
+- multi-oom
 <!-- tree:end -->
 
 ## 포스트

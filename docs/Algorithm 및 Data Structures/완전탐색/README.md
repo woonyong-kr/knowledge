@@ -1,17 +1,13 @@
-# 정렬
+# 완전탐색
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+가능한 모든 경우를 탐색하는 기법. 가지치기 없는 전수조사 기준.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+(하위 키워드 없음)
 <!-- tree:end -->
 
 ## 포스트

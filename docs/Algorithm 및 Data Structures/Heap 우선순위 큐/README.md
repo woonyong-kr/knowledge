@@ -1,17 +1,16 @@
-# 정렬
+# Heap 우선순위 큐
 
 <!-- description:start -->
-대표 정렬 알고리즘의 원리·복잡도·안정성.
+힙 자료구조와 우선순위 큐의 구현·활용.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- 버블 정렬
-- 삽입 정렬
-- QuickSort
-- MergeSort
-- HeapSort
+- Min-Heap
+- Max-Heap
+- heapify
+- 삽입과 삭제
 <!-- tree:end -->
 
 ## 포스트

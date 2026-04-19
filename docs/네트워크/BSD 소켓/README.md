@@ -7,7 +7,14 @@ BSD 소켓 API 와 기본 시스템콜.
 ## 하위 키워드
 
 <!-- tree:start -->
-(하위 키워드 없음)
+- socket
+- bind
+- listen
+- accept
+- connect
+- close
+- Stream Socket
+- Datagram Socket
 <!-- tree:end -->
 
 ## 포스트

@@ -30,6 +30,16 @@ categories:
         description: 범용 처리기와 병렬 처리기의 구조적 차이.
       - name: SSD HDD
         description: 두 저장 장치의 동작 원리와 성능·수명 특성.
+      - name: C 언어 기초
+        description: C 언어의 변수·함수·구조체·포인터와 컴파일·디버깅·make 사용법.
+        sub:
+          - 변수와 타입
+          - 함수와 매개변수
+          - 구조체
+          - 포인터
+          - 컴파일과 링크
+          - make 빌드
+          - gdb 디버깅
 
   - name: Algorithm 및 Data Structures
     slug: algo
@@ -39,6 +49,10 @@ categories:
         description: 알고리즘의 점근 복잡도 분석. Big-Oh 표기법 중심.
       - name: Recursion Iteration
         description: 재귀와 반복의 관계·트레이드오프·변환.
+        sub:
+          - 팩토리얼
+          - 피보나치
+          - 하노이 탑
       - name: Linked List
         description: 연결 리스트의 종류와 구현·시간복잡도.
       - name: Array
@@ -52,6 +66,8 @@ categories:
       - name: 정렬
         description: 대표 정렬 알고리즘의 원리·복잡도·안정성.
         sub:
+          - 버블 정렬
+          - 삽입 정렬
           - QuickSort
           - MergeSort
           - HeapSort
@@ -67,17 +83,86 @@ categories:
         description: 너비 우선 탐색의 원리와 응용.
       - name: Graph
         description: 그래프의 표현 방식·탐색·경로 알고리즘.
+        sub:
+          - 인접 리스트
+          - 인접 행렬
+          - 연결 요소
+          - 위상정렬
       - name: Tree
         description: 트리 자료구조와 순회·탐색.
+        sub:
+          - 이진 트리
+          - 이진 탐색 트리 BST
+          - 트리 순회
       - name: Dynamic Programming
         description: 최적 부분 구조와 중복 부분 문제를 활용한 설계 기법.
+        sub:
+          - Top-down 메모이제이션
+          - Bottom-up 타뷸레이션
+          - LCS
+          - 0 1 배낭
+          - LIS
+          - 편집거리
+          - 최장 회문 부분문자열
       - name: Greedy Algorithm
         description: 매 단계 국소 최적을 선택하는 설계 기법.
+        sub:
+          - 활동 선택
+          - 회의실 배정
+          - 멀티탭 스케줄링
+          - 동전 거스름돈
       - name: 균형 이진 트리 Balanced BST
         description: 균형을 유지하는 이진 탐색 트리 계열.
         sub:
           - AVL
           - RBTree
+      - name: 문자열
+        description: 문자열 처리 기법. 회문·반복·치환·기본 패턴 매칭.
+        sub:
+          - 회문 Palindrome
+          - 문자열 반복
+          - 패턴 매칭 기초
+      - name: 완전탐색
+        description: 가능한 모든 경우를 탐색하는 기법. 가지치기 없는 전수조사 기준.
+      - name: 백트래킹
+        description: 조건 위배 시 되돌아가며 탐색 공간을 가지치기하는 설계 기법.
+        sub:
+          - 조합 생성
+          - 순열 생성
+          - N-Queen 패턴
+          - 가지치기
+      - name: 정수론
+        description: 알고리즘에서 자주 만나는 수론적 주제.
+        sub:
+          - 최대공약수 GCD
+          - 최소공배수 LCM
+          - 소수 판정
+          - 에라토스테네스의 체
+          - 골드바흐의 추측
+      - name: 이분탐색
+        description: 정렬된 공간에서 탐색 범위를 절반씩 좁히는 기법.
+        sub:
+          - lower_bound
+          - upper_bound
+          - 파라메트릭 서치
+      - name: 분할정복
+        description: 문제를 부분 문제로 나눠 해결하고 합치는 설계 기법.
+        sub:
+          - 점화식
+          - Master Theorem
+      - name: Heap 우선순위 큐
+        description: 힙 자료구조와 우선순위 큐의 구현·활용.
+        sub:
+          - Min-Heap
+          - Max-Heap
+          - heapify
+          - 삽입과 삭제
+      - name: Trie
+        description: 접두사 트리. 문자열 집합의 검색·저장에 특화된 자료구조.
+        sub:
+          - 삽입
+          - 검색
+          - 접두사 탐색
 
   - name: Malloc lab
     slug: malloc
@@ -93,6 +178,35 @@ categories:
         description: Buddy System 할당자.
       - name: Fragmentation
         description: Internal·External 단편화의 원인과 완화 기법.
+        sub:
+          - Internal Fragmentation
+          - External Fragmentation
+      - name: 동적 메모리 할당
+        description: 힙 영역에서 sbrk·malloc·free·realloc 로 이뤄지는 메모리 할당 흐름.
+        sub:
+          - 힙
+          - sbrk
+          - brk
+          - malloc
+          - free
+          - realloc
+      - name: 할당 정책
+        description: 가용 블록 중 어떤 블록을 고를지 결정하는 탐색 전략.
+        sub:
+          - first fit
+          - next fit
+          - best fit
+      - name: Coalescing
+        description: 해제된 인접 가용 블록을 병합해 외부 단편화를 줄이는 기법.
+        sub:
+          - 경계 태그
+          - 즉시 병합
+          - 지연 병합
+      - name: 성능 지표
+        description: 할당자 성능 평가 지표. Malloc lab 점수 산정에 사용.
+        sub:
+          - 메모리 이용률 util
+          - 처리량 thru
 
   - name: 네트워크
     slug: net
@@ -100,8 +214,21 @@ categories:
     children:
       - name: BSD 소켓
         description: BSD 소켓 API 와 기본 시스템콜.
+        sub:
+          - socket
+          - bind
+          - listen
+          - accept
+          - connect
+          - close
+          - Stream Socket
+          - Datagram Socket
       - name: 프록시 서버
         description: Forward·Reverse 프록시의 역할과 구성.
+        sub:
+          - 순차 처리
+          - 동시 처리
+          - 웹 오브젝트 캐싱
       - name: TCP IP UDP HTTP file descriptor DNS
         description: 핵심 네트워크 프로토콜과 파일 디스크립터·DNS 개요.
       - name: REST API
@@ -112,6 +239,40 @@ categories:
         description: OSI 참조 모델의 각 계층과 역할.
       - name: CDN
         description: 콘텐츠 전송 네트워크의 원리와 캐싱 전략.
+      - name: TCP IP 계층 모델
+        description: 링크·네트워크·전송·응용 계층으로 구성된 TCP IP 참조 모델.
+        sub:
+          - 링크 계층
+          - 네트워크 계층
+          - 전송 계층
+          - 응용 계층
+      - name: 클라이언트 서버 모델
+        description: 역할 분담·연결 수립·요청 응답 흐름을 다루는 네트워크 상호작용 패턴.
+        sub:
+          - 요청 응답 흐름
+          - 세션 유지
+          - 연결 수립
+      - name: 웹서버
+        description: HTTP 요청을 받아 정적·동적 컨텐츠를 응답하는 서버 소프트웨어.
+        sub:
+          - tiny 웹서버 구조
+          - 정적 파일 서빙
+          - 동적 컨텐츠 서빙
+      - name: 웹 컨텐츠
+        description: 웹에서 주고받는 자원의 종류와 서빙 방식.
+        sub:
+          - MIME type
+          - 정적 컨텐츠
+          - 동적 컨텐츠
+          - CGI
+      - name: HTTP 메시지 구조
+        description: HTTP 요청·응답 메시지의 구성 요소와 흐름.
+        sub:
+          - 요청 라인
+          - 응답 라인
+          - 헤더
+          - 상태코드
+          - HEAD 메소드
 
   - name: OS
     slug: os
@@ -151,6 +312,10 @@ categories:
         description: 페이지 부재의 원인과 처리 과정.
       - name: linux redirection pipe
         description: 리눅스 셸의 리다이렉션과 파이프 동작.
+      - name: DMA
+        description: Direct Memory Access. CPU 개입 없이 장치가 메모리에 직접 접근하는 기법.
+      - name: demand-zero memory
+        description: 접근 시점에 0 으로 초기화된 페이지를 지연 할당하는 메모리 관리 기법.
 
   - name: Pintos
     slug: pintos
@@ -204,6 +369,8 @@ categories:
           - file descriptor
           - file descriptor table
           - dup2 syscall
+          - 사용자 포인터 검증
+          - multi-oom
       - name: Project 3 Virtual Memory
         description: 가상 메모리 관리, 페이지 타입, 스왑, COW.
         sub:
