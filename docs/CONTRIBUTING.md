@@ -190,6 +190,19 @@ scripts/
 - `tree.yaml` 편집 결과 반영 시: `tree.yaml`, 생성된 폴더·README, 관련 포스트, 재생성된 `post/` 를 모두 같은 커밋에 포함한다.
 - 커밋 후에는 원격 브랜치로 `git push` 한다.
 
+### 6.1 AI·Claude 흔적 금지
+
+- 커밋 메시지 본문·트레일러에 AI/Claude 관련 문구를 **절대 남기지 않는다**. 금지 예시:
+  - `Co-Authored-By: Claude ...`, `Co-authored-by: Claude ...`
+  - `🤖 Generated with Claude Code`, `Generated with Claude` 등의 서명
+  - `noreply@anthropic.com` 이 포함된 모든 식별자
+- Author/Committer 는 반드시 사용자 본인의 이름·이메일만 사용한다. AI 계정·봇 계정을 지정하지 않는다.
+- `--trailer`, `Co-Authored-By`, `Signed-off-by` 등으로 AI 공동 저자를 추가하는 옵션을 사용하지 않는다.
+- 이미 남은 흔적을 발견하면 다음 순서로 제거 후 원격을 재작성한다.
+  1. `git filter-branch --force --msg-filter 'sed -e "/^Co-Authored-By: Claude/Id" -e "/^Co-authored-by: Claude/Id"' <base>..HEAD`
+  2. `git push --force-with-lease origin <branch>`
+- 푸시 이후에도 GitHub 웹 UI의 커밋 상세 페이지에서 공동 저자 표시가 사라졌는지 육안 확인한다.
+
 ---
 
 ## 7. 중복 방지 정책
