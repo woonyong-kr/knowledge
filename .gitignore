@@ -4,3 +4,8 @@ __pycache__/
 .DS_Store
 .venv/
 venv/
+
+# 로컬 전용 (원격에 노출하지 않음)
+CLAUDE.md
+Makefile
+scripts/
