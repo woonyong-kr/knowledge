@@ -13,5 +13,5 @@
 ## 포스트
 
 <!-- posts:start -->
-(없음)
+- [cs-gc-runtime-memory-management](./cs-gc-runtime-memory-management.md)
 <!-- posts:end -->

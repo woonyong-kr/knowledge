@@ -17,6 +17,7 @@ categories:
           - 부동 소수점
           - 고정 소수점
       - name: C에서 Pointer 및 배열
+        slug: c-pointer
         description: C 포인터의 의미·배열 관계·포인터 연산·메타데이터 부재로 생기는 메모리 버그.
         sub:
           - 포인터 기본
@@ -26,6 +27,7 @@ categories:
           - 메모리 버그 근본 원인
           - Undefined Behavior
       - name: Garbage Collect
+        slug: gc
         description: 자동 메모리 회수 기법. 언어별 GC 전략 비교.
       - name: Stack과 Heap 메모리 구조
         description: 프로세스 메모리의 스택·힙 영역과 그 특성.
@@ -38,6 +40,7 @@ categories:
       - name: SSD HDD
         description: 두 저장 장치의 동작 원리와 성능·수명 특성.
       - name: C 언어 기초
+        slug: c-base
         description: C 언어의 타입·포인터 감각·메모리 모델·표준 함수의 함정을 정리한 기초 묶음.
         sub:
           - 변수와 타입
