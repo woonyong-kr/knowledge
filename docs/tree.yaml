@@ -88,6 +88,7 @@ categories:
     description: 자료구조와 알고리즘 전반. 시간복잡도부터 트리·그래프·정렬·해시·DP·Greedy.
     children:
       - name: 자료구조 개요
+        slug: overview
         description: 자료구조 분류·선택 기준과 시간·공간 복잡도 시각화.
         sub:
           - 순서가 중요한 문제
