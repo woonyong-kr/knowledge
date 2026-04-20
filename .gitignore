@@ -1,11 +1,12 @@
-__pycache__/
-*.pyc
-*.pyo
-.DS_Store
-.venv/
-venv/
+# 정책: 원격(GitHub) 에는 docs/ 디렉터리 문서와 .gitignore 만 올린다.
+# 나머지는 모두 로컬 전용 (CONTRIBUTING.md 12 절 참고).
 
-# 로컬 전용 (원격에 노출하지 않음)
-CLAUDE.md
-Makefile
-scripts/
+# 1) 기본값: 루트의 모든 파일·폴더를 무시한다.
+/*
+
+# 2) 허용 목록: docs/ 트리와 .gitignore 자신만 되돌려 올린다.
+!/docs/
+!/.gitignore
+
+# 3) 루트에서 허용했더라도 하위에서 다시 걸러내고 싶은 것들.
+#    docs/ 내부에서 추가로 무시할 파일이 생기면 docs/.gitignore 에 규칙을 둔다.
