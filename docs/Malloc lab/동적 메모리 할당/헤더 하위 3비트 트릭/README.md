@@ -13,5 +13,5 @@
 ## 포스트
 
 <!-- posts:start -->
-(없음)
+- [malloc-header-3bit-trick-alignment](./malloc-header-3bit-trick-alignment.md)
 <!-- posts:end -->

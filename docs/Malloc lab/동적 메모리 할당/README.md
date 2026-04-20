@@ -21,5 +21,7 @@
 ## 포스트
 
 <!-- posts:start -->
-(없음)
+- [malloc-dynalloc-allocator-memory-bugs-synthesis](./malloc-dynalloc-allocator-memory-bugs-synthesis.md)
+- [malloc-dynalloc-brk-sbrk-and-heap](./malloc-dynalloc-brk-sbrk-and-heap.md)
+- [malloc-dynalloc-lab-working-guide](./malloc-dynalloc-lab-working-guide.md)
 <!-- posts:end -->

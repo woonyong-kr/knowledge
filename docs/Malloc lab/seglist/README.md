@@ -13,5 +13,5 @@ Segregated Free List 기반 할당자.
 ## 포스트
 
 <!-- posts:start -->
-(없음)
+- [malloc-seglist-why-bins](./malloc-seglist-why-bins.md)
 <!-- posts:end -->

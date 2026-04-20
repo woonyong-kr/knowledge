@@ -13,5 +13,5 @@ free 호출 흐름과 메타데이터 복원.
 ## 포스트
 
 <!-- posts:start -->
-(없음)
+- [malloc-free-design-philosophy](./malloc-free-design-philosophy.md)
 <!-- posts:end -->

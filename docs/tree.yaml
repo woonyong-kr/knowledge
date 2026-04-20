@@ -232,6 +232,7 @@ categories:
           - Internal Fragmentation
           - External Fragmentation
       - name: 동적 메모리 할당
+        slug: dynalloc
         description: 힙 영역에서 sbrk·malloc·free·realloc 로 이뤄지는 메모리 할당 흐름.
         sub:
           - name: 힙
@@ -262,6 +263,7 @@ categories:
             slug: split-coalesce
             description: 블록 분할·인접 가용 블록 병합 정책.
       - name: 할당 정책
+        slug: placement
         description: 가용 블록 중 어떤 블록을 고를지 결정하는 탐색 전략.
         sub:
           - first fit
@@ -274,6 +276,7 @@ categories:
           - 즉시 병합
           - 지연 병합
       - name: 성능 지표
+        slug: metrics
         description: 할당자 성능 평가 지표. Malloc lab 점수 산정에 사용.
         sub:
           - 메모리 이용률 util

@@ -14,5 +14,5 @@ Internal·External 단편화의 원인과 완화 기법.
 ## 포스트
 
 <!-- posts:start -->
-(없음)
+- [malloc-fragmentation-internal-vs-external](./malloc-fragmentation-internal-vs-external.md)
 <!-- posts:end -->
