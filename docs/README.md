@@ -9,15 +9,19 @@
   - [32 Bit 64 Bit 차이](./CS%20%EA%B8%B0%EC%B4%88/32%20Bit%2064%20Bit%20%EC%B0%A8%EC%9D%B4/README.md) — 32비트와 64비트 시스템의 레지스터·주소공간·성능 차이.
   - [Python Call by value Call by reference](./CS%20%EA%B8%B0%EC%B4%88/Python%20Call%20by%20value%20Call%20by%20reference/README.md) — 파이썬의 객체 전달 방식. 가변·불변 객체에 따른 동작 차이.
   - [실수 표현법](./CS%20%EA%B8%B0%EC%B4%88/%EC%8B%A4%EC%88%98%20%ED%91%9C%ED%98%84%EB%B2%95/README.md) — 컴퓨터에서 실수를 표현하는 방식.
-  - [C에서 Pointer 및 배열](./CS%20%EA%B8%B0%EC%B4%88/C%EC%97%90%EC%84%9C%20Pointer%20%EB%B0%8F%20%EB%B0%B0%EC%97%B4/README.md) — C 포인터의 의미, 배열과의 관계, 포인터 연산.
+  - [C에서 Pointer 및 배열](./CS%20%EA%B8%B0%EC%B4%88/C%EC%97%90%EC%84%9C%20Pointer%20%EB%B0%8F%20%EB%B0%B0%EC%97%B4/README.md) — C 포인터의 의미·배열 관계·포인터 연산·메타데이터 부재로 생기는 메모리 버그.
   - [Garbage Collect](./CS%20%EA%B8%B0%EC%B4%88/Garbage%20Collect/README.md) — 자동 메모리 회수 기법. 언어별 GC 전략 비교.
   - [Stack과 Heap 메모리 구조](./CS%20%EA%B8%B0%EC%B4%88/Stack%EA%B3%BC%20Heap%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0/README.md) — 프로세스 메모리의 스택·힙 영역과 그 특성.
   - [jpg png gif 차이](./CS%20%EA%B8%B0%EC%B4%88/jpg%20png%20gif%20%EC%B0%A8%EC%9D%B4/README.md) — 대표 이미지 포맷의 압축 방식·색상 특성·사용처 비교.
   - [2의 보수 1의 보수](./CS%20%EA%B8%B0%EC%B4%88/2%EC%9D%98%20%EB%B3%B4%EC%88%98%201%EC%9D%98%20%EB%B3%B4%EC%88%98/README.md) — 음수 표현 방식 두 가지의 원리와 비교.
   - [CPU vs GPU](./CS%20%EA%B8%B0%EC%B4%88/CPU%20vs%20GPU/README.md) — 범용 처리기와 병렬 처리기의 구조적 차이.
   - [SSD HDD](./CS%20%EA%B8%B0%EC%B4%88/SSD%20HDD/README.md) — 두 저장 장치의 동작 원리와 성능·수명 특성.
-  - [C 언어 기초](./CS%20%EA%B8%B0%EC%B4%88/C%20%EC%96%B8%EC%96%B4%20%EA%B8%B0%EC%B4%88/README.md) — C 언어의 변수·함수·구조체·포인터와 컴파일·디버깅·make 사용법.
+  - [C 언어 기초](./CS%20%EA%B8%B0%EC%B4%88/C%20%EC%96%B8%EC%96%B4%20%EA%B8%B0%EC%B4%88/README.md) — C 언어의 타입·포인터 감각·메모리 모델·표준 함수의 함정을 정리한 기초 묶음.
+  - [어셈블리 언어 기초](./CS%20%EA%B8%B0%EC%B4%88/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC%20%EC%96%B8%EC%96%B4%20%EA%B8%B0%EC%B4%88/README.md) — CSAPP 3장. x86-64 명령어·레지스터·호출 규약·스택 프레임.
+  - [프로그램 성능 최적화](./CS%20%EA%B8%B0%EC%B4%88/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94/README.md) — CSAPP 5장. 컴파일러 최적화 한계·캐시 친화적 코드·프로파일링.
+  - [링커와 로더](./CS%20%EA%B8%B0%EC%B4%88/%EB%A7%81%EC%BB%A4%EC%99%80%20%EB%A1%9C%EB%8D%94/README.md) — CSAPP 7장. 정적·동적 링킹·심볼 테이블·재배치·공유 라이브러리.
 - [Algorithm 및 Data Structures](./Algorithm%20%EB%B0%8F%20Data%20Structures/README.md) — 자료구조와 알고리즘 전반. 시간복잡도부터 트리·그래프·정렬·해시·DP·Greedy.
+  - [자료구조 개요](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%EA%B0%9C%EC%9A%94/README.md) — 자료구조 분류·선택 기준과 시간·공간 복잡도 시각화.
   - [시간 복잡도](./Algorithm%20%EB%B0%8F%20Data%20Structures/%EC%8B%9C%EA%B0%84%20%EB%B3%B5%EC%9E%A1%EB%8F%84/README.md) — 알고리즘의 점근 복잡도 분석. Big-Oh 표기법 중심.
   - [Recursion Iteration](./Algorithm%20%EB%B0%8F%20Data%20Structures/Recursion%20Iteration/README.md) — 재귀와 반복의 관계·트레이드오프·변환.
   - [Linked List](./Algorithm%20%EB%B0%8F%20Data%20Structures/Linked%20List/README.md) — 연결 리스트의 종류와 구현·시간복잡도.
@@ -53,18 +57,27 @@
   - [Coalescing](./Malloc%20lab/Coalescing/README.md) — 해제된 인접 가용 블록을 병합해 외부 단편화를 줄이는 기법.
   - [성능 지표](./Malloc%20lab/%EC%84%B1%EB%8A%A5%20%EC%A7%80%ED%91%9C/README.md) — 할당자 성능 평가 지표. Malloc lab 점수 산정에 사용.
 - [네트워크](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/README.md) — OSI 계층, 프로토콜, 소켓 프로그래밍, 프록시·CDN, REST API.
-  - [BSD 소켓](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/BSD%20%EC%86%8C%EC%BC%93/README.md) — BSD 소켓 API 와 기본 시스템콜.
-  - [프록시 서버](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%94%84%EB%A1%9D%EC%8B%9C%20%EC%84%9C%EB%B2%84/README.md) — Forward·Reverse 프록시의 역할과 구성.
-  - [TCP IP UDP HTTP file descriptor DNS](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%20IP%20UDP%20HTTP%20file%20descriptor%20DNS/README.md) — 핵심 네트워크 프로토콜과 파일 디스크립터·DNS 개요.
+  - [소켓 시스템콜](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%86%8C%EC%BC%93%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%BD%9C/README.md) — BSD 소켓 시스템콜 함수 체인·addrinfo·호출 순서.
+  - [프록시 서버](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%94%84%EB%A1%9D%EC%8B%9C%20%EC%84%9C%EB%B2%84/README.md) — Forward·Reverse 프록시의 역할과 구성·순차·동시·캐싱.
   - [REST API](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/REST%20API/README.md) — REST 아키텍처 스타일과 설계 원칙.
-  - [HTTP METHOD](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20METHOD/README.md) — GET·POST·PUT·PATCH·DELETE 메서드의 의미와 사용법.
   - [OSI 7계층](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/OSI%207%EA%B3%84%EC%B8%B5/README.md) — OSI 참조 모델의 각 계층과 역할.
   - [CDN](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/CDN/README.md) — 콘텐츠 전송 네트워크의 원리와 캐싱 전략.
   - [TCP IP 계층 모델](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%20IP%20%EA%B3%84%EC%B8%B5%20%EB%AA%A8%EB%8D%B8/README.md) — 링크·네트워크·전송·응용 계층으로 구성된 TCP IP 참조 모델.
   - [클라이언트 서버 모델](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20%EC%84%9C%EB%B2%84%20%EB%AA%A8%EB%8D%B8/README.md) — 역할 분담·연결 수립·요청 응답 흐름을 다루는 네트워크 상호작용 패턴.
-  - [웹서버](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EC%84%9C%EB%B2%84/README.md) — HTTP 요청을 받아 정적·동적 컨텐츠를 응답하는 서버 소프트웨어.
+  - [웹서버](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%EC%84%9C%EB%B2%84/README.md) — HTTP 요청을 받아 정적·동적 컨텐츠를 응답하는 서버 소프트웨어의 일반 개념.
   - [웹 컨텐츠](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%9B%B9%20%EC%BB%A8%ED%85%90%EC%B8%A0/README.md) — 웹에서 주고받는 자원의 종류와 서빙 방식.
   - [HTTP 메시지 구조](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EA%B5%AC%EC%A1%B0/README.md) — HTTP 요청·응답 메시지의 구성 요소와 흐름.
+  - [IP와 DNS](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IP%EC%99%80%20DNS/README.md) — IP 주소 체계·byte order·DNS·도메인 등록·Cloudflare 경로.
+  - [전송 계층 TCP UDP](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%A0%84%EC%86%A1%20%EA%B3%84%EC%B8%B5%20TCP%20UDP/README.md) — TCP·UDP 차이·소켓 시스템콜 매핑·3way·4way·CLOSE_WAIT.
+  - [HTTP 프로토콜](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C/README.md) — HTTP 메시지·METHOD·버전별 차이·Keep-Alive·FTP·MIME·Telnet.
+  - [네트워크 하드웨어](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/README.md) — Ethernet·Bridge·Router·LAN·WAN·NIC 의 역할과 차이.
+  - [소켓 내부 구조](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%86%8C%EC%BC%93%20%EB%82%B4%EB%B6%80%20%EA%B5%AC%EC%A1%B0/README.md) — struct socket·sk_buff·sockfs·fd→socket 포인터 체인·sk_receive_queue.
+  - [IO Bridge와 NIC](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/IO%20Bridge%EC%99%80%20NIC/README.md) — CPU·DRAM·NIC 경로·DMA·PCIe·TLP·MSI-X·NAPI (I/O Bridge 축).
+  - [Tiny 웹서버](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Tiny%20%EC%9B%B9%EC%84%9C%EB%B2%84/README.md) — CSAPP Tiny 서버 함수 체인·Rio·parse_uri·serve_static·serve_dynamic.
+  - [Concurrent Server](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Concurrent%20Server/README.md) — Iterative·Thread pool·async I/O·epoll·blocking vs non-blocking.
+  - [서버 동시성과 락](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%84%9C%EB%B2%84%20%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC%20%EB%9D%BD/README.md) — 네트워크 서버에서의 mutex·condvar·thread-safe 디자인.
+  - [동적 처리 모델 진화](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%8F%99%EC%A0%81%20%EC%B2%98%EB%A6%AC%20%EB%AA%A8%EB%8D%B8%20%EC%A7%84%ED%99%94/README.md) — CGI → FastCGI → 앱 서버 통합까지의 서버 측 동적 처리 방식 변천.
+  - [서버 아키텍처 패턴](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EC%84%9C%EB%B2%84%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%ED%8C%A8%ED%84%B4/README.md) — 서비스 경계를 나누는 대표 패턴.
 - [OS](./OS/README.md) — 운영체제 핵심 개념. 프로세스·스레드, 스케줄링, 동기화, 가상 메모리, 캐시.
   - [OS의 정의](./OS/OS%EC%9D%98%20%EC%A0%95%EC%9D%98/README.md) — 운영체제의 목적과 역할.
   - [Process와 Thread](./OS/Process%EC%99%80%20Thread/README.md) — 프로세스와 스레드의 구조·차이·비용.
@@ -77,7 +90,8 @@
   - [Kernel](./OS/Kernel/README.md) — 커널의 역할과 구조·모놀리식 vs 마이크로.
   - [Atomic Operation](./OS/Atomic%20Operation/README.md) — 원자적 연산의 의미와 하드웨어 지원.
   - [Interrupt](./OS/Interrupt/README.md) — 인터럽트의 종류와 처리 흐름.
-  - [가상 메모리](./OS/%EA%B0%80%EC%83%81%20%EB%A9%94%EB%AA%A8%EB%A6%AC/README.md) — 가상 주소 공간과 물리 메모리 매핑.
+  - [예외 제어 흐름](./OS/%EC%98%88%EC%99%B8%20%EC%A0%9C%EC%96%B4%20%ED%9D%90%EB%A6%84/README.md) — CSAPP 8장. 예외·인터럽트·트랩·시그널·프로세스 제어의 통합 관점.
+  - [가상 메모리](./OS/%EA%B0%80%EC%83%81%20%EB%A9%94%EB%AA%A8%EB%A6%AC/README.md) — 가상 주소 공간·프로세스 주소공간·execve·fork COW·mmap 4조합·task_struct·VMA.
   - [페이징 기법](./OS/%ED%8E%98%EC%9D%B4%EC%A7%95%20%EA%B8%B0%EB%B2%95/README.md) — 페이지 단위 메모리 관리와 페이지 테이블.
   - [Cache](./OS/Cache/README.md) — 캐시 계층 구조와 지역성 원리.
   - [TLB](./OS/TLB/README.md) — 주소 변환 캐시의 동작.
@@ -99,9 +113,14 @@
   - [관계형 DB와 No-SQL DB](./DB/%EA%B4%80%EA%B3%84%ED%98%95%20DB%EC%99%80%20No-SQL%20DB/README.md) — 두 계열의 모델·쿼리·확장성 비교.
   - [DB Index](./DB/DB%20Index/README.md) — 인덱스의 목적과 종류·비용.
   - [B Tree B+ Tree](./DB/B%20Tree%20B%2B%20Tree/README.md) — 두 트리 구조의 원리와 DB 인덱스에서의 사용.
+  - [페이지 스토리지](./DB/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80/README.md) — 디스크 기반 저장의 페이지 단위 레이아웃·타입 태그·슬롯·내부 단편화·memcpy 직렬화.
+  - [SQL 엔진](./DB/SQL%20%EC%97%94%EC%A7%84/README.md) — 디스크 기반 미니 SQL 엔진의 전체 구조·프레임 캐시·B+Tree SQL 계획·파서.
+  - [Redis](./DB/Redis/README.md) — 인메모리 KV 스토어 Redis 의 프로토콜·명령 디스패처·자료구조·TTL·영속성·eviction.
 - [프로젝트 공통 지식](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/README.md) — 프로젝트 수행에서 반복적으로 만나는 공통 주제. JS·암호·HTTP 보안·회원관리.
   - [JavaScript](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/JavaScript/README.md) — 비동기 I/O, 동시성, 워커.
   - [암호 보안](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/%EC%95%94%ED%98%B8%20%EB%B3%B4%EC%95%88/README.md) — 대칭·공개키 암호, 해시, 응용 프로토콜.
   - [HTTP Security](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/HTTP%20Security/README.md) — 웹에서 자주 만나는 보안 이슈와 대응.
   - [회원관리](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC/README.md) — 인증·인가·디렉터리 서비스.
+  - [React](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/React/README.md) — 선언적 UI 런타임 직접 구현으로 배우는 React 코어 개념.
+  - [아키텍처 패턴](./%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%B5%ED%86%B5%20%EC%A7%80%EC%8B%9D/%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%ED%8C%A8%ED%84%B4/README.md) — Monolithic 과 Microservice 를 중심으로 한 서비스 분할·배포 패턴.
 <!-- tree:end -->

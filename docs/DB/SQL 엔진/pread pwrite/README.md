@@ -1,20 +1,13 @@
-# BSD 소켓
+# pread pwrite
 
 <!-- description:start -->
-BSD 소켓 API 와 기본 시스템콜.
+pread·pwrite·O_DIRECT 기반 페이지 입출력과 OS 캐시 상호작용.
 <!-- description:end -->
 
 ## 하위 키워드
 
 <!-- tree:start -->
-- socket
-- bind
-- listen
-- accept
-- connect
-- close
-- Stream Socket
-- Datagram Socket
+(하위 키워드 없음)
 <!-- tree:end -->
 
 ## 포스트

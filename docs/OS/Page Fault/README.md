@@ -7,7 +7,9 @@
 ## 하위 키워드
 
 <!-- tree:start -->
-(하위 키워드 없음)
+- Page fault 분류
+- Demand paging
+- 메모리 보호 비트
 <!-- tree:end -->
 
 ## 포스트

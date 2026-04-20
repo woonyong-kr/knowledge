@@ -7,7 +7,11 @@ REST 아키텍처 스타일과 설계 원칙.
 ## 하위 키워드
 
 <!-- tree:start -->
-(하위 키워드 없음)
+- RESTful 원칙
+- 리소스 모델링
+- 상태 코드 설계
+- HATEOAS
+- RESTful vs RPC
 <!-- tree:end -->
 
 ## 포스트

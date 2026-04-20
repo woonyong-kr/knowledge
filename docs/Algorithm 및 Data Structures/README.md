@@ -7,6 +7,11 @@
 ## 하위 키워드
 
 <!-- tree:start -->
+- [자료구조 개요](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%EA%B0%9C%EC%9A%94/README.md) — 자료구조 분류·선택 기준과 시간·공간 복잡도 시각화.
+  - 순서가 중요한 문제
+  - 관계가 중요한 문제
+  - 연결이 중요한 문제
+  - 속도가 중요한 문제
 - [시간 복잡도](./%EC%8B%9C%EA%B0%84%20%EB%B3%B5%EC%9E%A1%EB%8F%84/README.md) — 알고리즘의 점근 복잡도 분석. Big-Oh 표기법 중심.
 - [Recursion Iteration](./Recursion%20Iteration/README.md) — 재귀와 반복의 관계·트레이드오프·변환.
   - 팩토리얼

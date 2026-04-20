@@ -1,7 +1,7 @@
-# TCP IP UDP HTTP file descriptor DNS
+# MMU
 
 <!-- description:start -->
-핵심 네트워크 프로토콜과 파일 디스크립터·DNS 개요.
+MMU 의 주소 변환 단계와 캐시 상호작용.
 <!-- description:end -->
 
 ## 하위 키워드

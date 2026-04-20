@@ -45,4 +45,18 @@
   - OAuth2
   - AWS IAM
   - Azure AD
+- [React](./React/README.md) — 선언적 UI 런타임 직접 구현으로 배우는 React 코어 개념.
+  - [Virtual DOM](./React/Virtual%20DOM/README.md) — Virtual DOM 구조와 diff·patch 알고리즘.
+  - [Fiber 아키텍처](./React/Fiber%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/README.md) — Fiber·Reconciler·스케줄링과 우선순위 모델.
+  - [Hooks](./React/Hooks/README.md) — useState·useEffect 등 훅의 저장 구조와 동작 원리.
+  - 이벤트 위임
+  - createElement JSX
+  - demo SPA 설계 사례
+- [아키텍처 패턴](./%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%ED%8C%A8%ED%84%B4/README.md) — Monolithic 과 Microservice 를 중심으로 한 서비스 분할·배포 패턴.
+  - Monolithic
+  - Modular Monolith
+  - Microservice 분할 기준
+  - 배포 경계와 DB 공유 정책
+  - 서비스 간 통신 패턴
+  - 관측성 로깅 추적
 <!-- tree:end -->

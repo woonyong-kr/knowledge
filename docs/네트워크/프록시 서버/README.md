@@ -1,7 +1,7 @@
 # 프록시 서버
 
 <!-- description:start -->
-Forward·Reverse 프록시의 역할과 구성.
+Forward·Reverse 프록시의 역할과 구성·순차·동시·캐싱.
 <!-- description:end -->
 
 ## 하위 키워드

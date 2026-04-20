@@ -9,6 +9,7 @@
 <!-- tree:start -->
 - 메모리 이용률 util
 - 처리량 thru
+- 테스트 스크립트
 <!-- tree:end -->
 
 ## 포스트

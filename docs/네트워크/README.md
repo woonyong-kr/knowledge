@@ -7,7 +7,7 @@ OSI 계층, 프로토콜, 소켓 프로그래밍, 프록시·CDN, REST API.
 ## 하위 키워드
 
 <!-- tree:start -->
-- [BSD 소켓](./BSD%20%EC%86%8C%EC%BC%93/README.md) — BSD 소켓 API 와 기본 시스템콜.
+- [소켓 시스템콜](./%EC%86%8C%EC%BC%93%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%BD%9C/README.md) — BSD 소켓 시스템콜 함수 체인·addrinfo·호출 순서.
   - socket
   - bind
   - listen
@@ -16,13 +16,17 @@ OSI 계층, 프로토콜, 소켓 프로그래밍, 프록시·CDN, REST API.
   - close
   - Stream Socket
   - Datagram Socket
-- [프록시 서버](./%ED%94%84%EB%A1%9D%EC%8B%9C%20%EC%84%9C%EB%B2%84/README.md) — Forward·Reverse 프록시의 역할과 구성.
+  - addrinfo
+- [프록시 서버](./%ED%94%84%EB%A1%9D%EC%8B%9C%20%EC%84%9C%EB%B2%84/README.md) — Forward·Reverse 프록시의 역할과 구성·순차·동시·캐싱.
   - 순차 처리
   - 동시 처리
   - 웹 오브젝트 캐싱
-- [TCP IP UDP HTTP file descriptor DNS](./TCP%20IP%20UDP%20HTTP%20file%20descriptor%20DNS/README.md) — 핵심 네트워크 프로토콜과 파일 디스크립터·DNS 개요.
 - [REST API](./REST%20API/README.md) — REST 아키텍처 스타일과 설계 원칙.
-- [HTTP METHOD](./HTTP%20METHOD/README.md) — GET·POST·PUT·PATCH·DELETE 메서드의 의미와 사용법.
+  - RESTful 원칙
+  - 리소스 모델링
+  - 상태 코드 설계
+  - HATEOAS
+  - RESTful vs RPC
 - [OSI 7계층](./OSI%207%EA%B3%84%EC%B8%B5/README.md) — OSI 참조 모델의 각 계층과 역할.
 - [CDN](./CDN/README.md) — 콘텐츠 전송 네트워크의 원리와 캐싱 전략.
 - [TCP IP 계층 모델](./TCP%20IP%20%EA%B3%84%EC%B8%B5%20%EB%AA%A8%EB%8D%B8/README.md) — 링크·네트워크·전송·응용 계층으로 구성된 TCP IP 참조 모델.
@@ -34,19 +38,93 @@ OSI 계층, 프로토콜, 소켓 프로그래밍, 프록시·CDN, REST API.
   - 요청 응답 흐름
   - 세션 유지
   - 연결 수립
-- [웹서버](./%EC%9B%B9%EC%84%9C%EB%B2%84/README.md) — HTTP 요청을 받아 정적·동적 컨텐츠를 응답하는 서버 소프트웨어.
-  - tiny 웹서버 구조
+- [웹서버](./%EC%9B%B9%EC%84%9C%EB%B2%84/README.md) — HTTP 요청을 받아 정적·동적 컨텐츠를 응답하는 서버 소프트웨어의 일반 개념.
   - 정적 파일 서빙
   - 동적 컨텐츠 서빙
+  - 서버 역할 분류
 - [웹 컨텐츠](./%EC%9B%B9%20%EC%BB%A8%ED%85%90%EC%B8%A0/README.md) — 웹에서 주고받는 자원의 종류와 서빙 방식.
   - MIME type
   - 정적 컨텐츠
   - 동적 컨텐츠
-  - CGI
 - [HTTP 메시지 구조](./HTTP%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EA%B5%AC%EC%A1%B0/README.md) — HTTP 요청·응답 메시지의 구성 요소와 흐름.
   - 요청 라인
   - 응답 라인
   - 헤더
   - 상태코드
   - HEAD 메소드
+- [IP와 DNS](./IP%EC%99%80%20DNS/README.md) — IP 주소 체계·byte order·DNS·도메인 등록·Cloudflare 경로.
+  - IPv4 32비트
+  - IPv6
+  - host·network byte order
+  - DNS 조회 원리
+  - 도메인 등록
+  - Cloudflare DNS Proxy
+- [전송 계층 TCP UDP](./%EC%A0%84%EC%86%A1%20%EA%B3%84%EC%B8%B5%20TCP%20UDP/README.md) — TCP·UDP 차이·소켓 시스템콜 매핑·3way·4way·CLOSE_WAIT.
+  - TCP 3-way handshake
+  - 4-way 종료
+  - TIME_WAIT
+  - CLOSE_WAIT
+  - 소켓 버퍼
+  - tcp_sock 구조
+- [HTTP 프로토콜](./HTTP%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C/README.md) — HTTP 메시지·METHOD·버전별 차이·Keep-Alive·FTP·MIME·Telnet.
+  - HTTP 요청 응답
+  - HTTP METHOD
+  - HTTP 1.0
+  - HTTP 1.1
+  - HTTP 2.0
+  - HTTP 3 QUIC
+  - Keep-Alive 와 파이프라이닝
+  - Server Push
+  - MIME type
+  - FTP 비교
+  - Telnet
+- [네트워크 하드웨어](./%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/README.md) — Ethernet·Bridge·Router·LAN·WAN·NIC 의 역할과 차이.
+  - Ethernet
+  - Bridge Switch
+  - Router
+  - LAN WAN
+  - NIC MAC
+- [소켓 내부 구조](./%EC%86%8C%EC%BC%93%20%EB%82%B4%EB%B6%80%20%EA%B5%AC%EC%A1%B0/README.md) — struct socket·sk_buff·sockfs·fd→socket 포인터 체인·sk_receive_queue.
+  - [fd 생명주기](./%EC%86%8C%EC%BC%93%20%EB%82%B4%EB%B6%80%20%EA%B5%AC%EC%A1%B0/fd%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0/README.md) — 파일 디스크립터 생성·복제·종료·dispatch 의 전체 흐름.
+  - [struct socket 과 sk_buff](./%EC%86%8C%EC%BC%93%20%EB%82%B4%EB%B6%80%20%EA%B5%AC%EC%A1%B0/struct%20socket%20%EA%B3%BC%20sk_buff/README.md) — 커널 소켓 구조체와 네트워크 버퍼의 관계.
+  - [sockfs 와 fd to socket 체인](./%EC%86%8C%EC%BC%93%20%EB%82%B4%EB%B6%80%20%EA%B5%AC%EC%A1%B0/sockfs%20%EC%99%80%20fd%20to%20socket%20%EC%B2%B4%EC%9D%B8/README.md) — fd→file→socket 포인터 경로와 sockfs 역할.
+  - [소켓 버퍼 큐](./%EC%86%8C%EC%BC%93%20%EB%82%B4%EB%B6%80%20%EA%B5%AC%EC%A1%B0/%EC%86%8C%EC%BC%93%20%EB%B2%84%ED%8D%BC%20%ED%81%90/README.md) — sk_receive_queue·sk_write_queue 의 구조와 소비 흐름.
+- [IO Bridge와 NIC](./IO%20Bridge%EC%99%80%20NIC/README.md) — CPU·DRAM·NIC 경로·DMA·PCIe·TLP·MSI-X·NAPI (I/O Bridge 축).
+  - IO Bridge IMC PCH
+  - DMA API
+  - PCIe TLP
+  - MSI-X
+  - NAPI
+  - NIC ring buffer
+- [Tiny 웹서버](./Tiny%20%EC%9B%B9%EC%84%9C%EB%B2%84/README.md) — CSAPP Tiny 서버 함수 체인·Rio·parse_uri·serve_static·serve_dynamic.
+  - [Tiny main 루프](./Tiny%20%EC%9B%B9%EC%84%9C%EB%B2%84/Tiny%20main%20%EB%A3%A8%ED%94%84/README.md) — Tiny 서버의 메인 accept 루프와 연결 처리 흐름.
+  - [Rio 버퍼 IO](./Tiny%20%EC%9B%B9%EC%84%9C%EB%B2%84/Rio%20%EB%B2%84%ED%8D%BC%20IO/README.md) — CSAPP Rio 패키지의 버퍼 입출력 구조 (I/O).
+  - [parse_uri](./Tiny%20%EC%9B%B9%EC%84%9C%EB%B2%84/parse_uri/README.md) — URI 파싱과 정적·동적 구분 로직.
+  - [serve_static](./Tiny%20%EC%9B%B9%EC%84%9C%EB%B2%84/serve_static/README.md) — 정적 파일 서빙 함수의 동작과 mmap 사용.
+  - [serve_dynamic](./Tiny%20%EC%9B%B9%EC%84%9C%EB%B2%84/serve_dynamic/README.md) — 동적 컨텐츠 서빙에서 fork·execve 로 CGI 를 기동하는 흐름.
+  - [clienterror](./Tiny%20%EC%9B%B9%EC%84%9C%EB%B2%84/clienterror/README.md) — 에러 응답 생성 함수의 구조와 HTTP 상태코드 매핑.
+- [Concurrent Server](./Concurrent%20Server/README.md) — Iterative·Thread pool·async I/O·epoll·blocking vs non-blocking.
+  - Iterative server
+  - Thread pool
+  - async I/O
+  - epoll
+  - non-blocking I/O
+- [서버 동시성과 락](./%EC%84%9C%EB%B2%84%20%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC%20%EB%9D%BD/README.md) — 네트워크 서버에서의 mutex·condvar·thread-safe 디자인.
+  - race condition in server
+  - mutex condvar
+  - thread-safe 카운터
+  - per-connection 상태
+  - thread pool 공유 자원
+- [동적 처리 모델 진화](./%EB%8F%99%EC%A0%81%20%EC%B2%98%EB%A6%AC%20%EB%AA%A8%EB%8D%B8%20%EC%A7%84%ED%99%94/README.md) — CGI → FastCGI → 앱 서버 통합까지의 서버 측 동적 처리 방식 변천.
+  - [CGI](./%EB%8F%99%EC%A0%81%20%EC%B2%98%EB%A6%AC%20%EB%AA%A8%EB%8D%B8%20%EC%A7%84%ED%99%94/CGI/README.md) — CGI 개념·fork+execve·dup2·QUERY_STRING·환경변수 인자 전달.
+  - [FastCGI](./%EB%8F%99%EC%A0%81%20%EC%B2%98%EB%A6%AC%20%EB%AA%A8%EB%8D%B8%20%EC%A7%84%ED%99%94/FastCGI/README.md) — 프로세스 재사용으로 CGI 오버헤드를 줄이는 FastCGI 프로토콜.
+  - [임베디드 스크립트](./%EB%8F%99%EC%A0%81%20%EC%B2%98%EB%A6%AC%20%EB%AA%A8%EB%8D%B8%20%EC%A7%84%ED%99%94/%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/README.md) — mod_php 류 웹서버 내장 스크립트 실행 모델.
+  - [3 Tier 아키텍처](./%EB%8F%99%EC%A0%81%20%EC%B2%98%EB%A6%AC%20%EB%AA%A8%EB%8D%B8%20%EC%A7%84%ED%99%94/3%20Tier%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/README.md) — 웹서버·앱서버·DB 로 분리되는 고전 3 계층 모델.
+  - [리버스 프록시 앱 서버 조합](./%EB%8F%99%EC%A0%81%20%EC%B2%98%EB%A6%AC%20%EB%AA%A8%EB%8D%B8%20%EC%A7%84%ED%99%94/%EB%A6%AC%EB%B2%84%EC%8A%A4%20%ED%94%84%EB%A1%9D%EC%8B%9C%20%EC%95%B1%20%EC%84%9C%EB%B2%84%20%EC%A1%B0%ED%95%A9/README.md) — Nginx + Gunicorn 류 리버스 프록시와 애플리케이션 서버 조합.
+- [서버 아키텍처 패턴](./%EC%84%9C%EB%B2%84%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%ED%8C%A8%ED%84%B4/README.md) — 서비스 경계를 나누는 대표 패턴.
+  - Reverse Proxy
+  - Load Balancer
+  - API Gateway
+  - Service Discovery
+  - Backend for Frontend
 <!-- tree:end -->

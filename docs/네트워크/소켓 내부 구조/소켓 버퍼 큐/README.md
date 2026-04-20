@@ -1,7 +1,7 @@
-# HTTP METHOD
+# 소켓 버퍼 큐
 
 <!-- description:start -->
-GET·POST·PUT·PATCH·DELETE 메서드의 의미와 사용법.
+sk_receive_queue·sk_write_queue 의 구조와 소비 흐름.
 <!-- description:end -->
 
 ## 하위 키워드

@@ -7,7 +7,10 @@
 ## 하위 키워드
 
 <!-- tree:start -->
-(하위 키워드 없음)
+- User vs Kernel mode
+- 커널 모드 진입 3가지 경로
+- syscall 경로
+- 커널 스레드
 <!-- tree:end -->
 
 ## 포스트
