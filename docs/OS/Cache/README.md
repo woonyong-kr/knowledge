@@ -15,5 +15,6 @@
 ## 포스트
 
 <!-- posts:start -->
-(없음)
+- [os-cache-line-locality](./os-cache-line-locality.md)
+- [os-cache-memory-hierarchy](./os-cache-memory-hierarchy.md)
 <!-- posts:end -->

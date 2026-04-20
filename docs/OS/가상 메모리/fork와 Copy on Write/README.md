@@ -13,5 +13,6 @@ fork 시 페이지 테이블 복제·쓰기 발생 시 COW 동작.
 ## 포스트
 
 <!-- posts:start -->
-(없음)
+- [os-fork-cow-lazy-process-creation](./os-fork-cow-lazy-process-creation.md)
+- [os-fork-cow-mechanics](./os-fork-cow-mechanics.md)
 <!-- posts:end -->

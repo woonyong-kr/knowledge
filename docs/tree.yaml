@@ -501,6 +501,7 @@ categories:
       - name: Context Switching
         description: 문맥 교환의 동작 원리와 비용.
       - name: System Call
+        slug: syscall
         description: 사용자 모드에서 커널 기능을 요청하는 메커니즘.
         sub:
           - User vs Kernel mode
@@ -521,6 +522,7 @@ categories:
           - setjmp longjmp
           - nonlocal jump
       - name: 가상 메모리
+        slug: virtual-memory
         description: 가상 주소 공간·프로세스 주소공간·execve·fork COW·mmap 4조합·task_struct·VMA.
         sub:
           - 3대 문제 고립 정체성 용량

@@ -13,5 +13,5 @@ private/shared × anonymous/file-backed 네 조합의 의미와 사용처.
 ## 포스트
 
 <!-- posts:start -->
-(없음)
+- [os-mmap-four-combinations](./os-mmap-four-combinations.md)
 <!-- posts:end -->
